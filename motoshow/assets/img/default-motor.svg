@@ -1,0 +1,49 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 600 400" width="100%" height="100%" fill="none">
+  <rect width="600" height="400" fill="#121620"/>
+  <defs>
+    <linearGradient id="bgGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#1e2433" />
+      <stop offset="100%" stop-color="#0f121a" />
+    </linearGradient>
+    <linearGradient id="redAccent" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#ef4444" />
+      <stop offset="100%" stop-color="#dc2626" />
+    </linearGradient>
+  </defs>
+  <rect width="600" height="400" fill="url(#bgGrad)"/>
+  
+  <!-- Subtle Grid Lines -->
+  <path d="M0 320 H600 M100 0 V400 M300 0 V400 M500 0 V400" stroke="#ffffff" stroke-opacity="0.03" stroke-width="1"/>
+  
+  <!-- Ground Glow -->
+  <ellipse cx="300" cy="330" rx="220" ry="25" fill="#ef4444" fill-opacity="0.12"/>
+  
+  <!-- Stylized Motor Silhouette -->
+  <!-- Rear Wheel -->
+  <circle cx="180" cy="270" r="55" stroke="#334155" stroke-width="12" fill="#0f172a"/>
+  <circle cx="180" cy="270" r="38" stroke="#ef4444" stroke-dasharray="10 5" stroke-width="4"/>
+  <circle cx="180" cy="270" r="16" fill="#64748b"/>
+  
+  <!-- Front Wheel -->
+  <circle cx="430" cy="270" r="55" stroke="#334155" stroke-width="12" fill="#0f172a"/>
+  <circle cx="430" cy="270" r="38" stroke="#ef4444" stroke-dasharray="10 5" stroke-width="4"/>
+  <circle cx="430" cy="270" r="16" fill="#64748b"/>
+  
+  <!-- Frame & Bodywork -->
+  <path d="M180 270 L250 240 L310 210 L380 180 L430 270" stroke="#475569" stroke-width="8" stroke-linecap="round"/>
+  <path d="M220 220 L320 200 L370 140 L330 140 L260 170 Z" fill="url(#redAccent)"/>
+  <path d="M260 170 L340 170 L380 140 L410 160 L430 240" stroke="#cbd5e1" stroke-width="6" stroke-linecap="round"/>
+  <path d="M210 200 L260 200 L240 230 Z" fill="#94a3b8"/>
+  
+  <!-- Handlebar & Headlight -->
+  <path d="M375 140 L390 125 L415 125" stroke="#ffffff" stroke-width="5" stroke-linecap="round"/>
+  <polygon points="415,150 435,160 415,170" fill="#fef08a"/>
+  
+  <!-- Exhaust -->
+  <path d="M240 250 L200 280 L140 275" stroke="#64748b" stroke-width="7" stroke-linecap="round"/>
+  <path d="M170 277 L130 273" stroke="#ef4444" stroke-width="8" stroke-linecap="round"/>
+  
+  <!-- Label -->
+  <rect x="220" y="340" width="160" height="30" rx="15" fill="#ef4444" fill-opacity="0.15" stroke="#ef4444" stroke-width="1"/>
+  <text x="300" y="360" text-anchor="middle" font-family="'Plus Jakarta Sans', system-ui, sans-serif" font-weight="700" font-size="12" fill="#ef4444" letter-spacing="2">MOTOSHOW UNIT</text>
+</svg>
